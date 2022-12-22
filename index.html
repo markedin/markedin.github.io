@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <!--HEAD-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title> Mark&apos;s Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="CSS/portfolio.css">
+    </head>
+
+    <!--BODY-->
+    <body class="background">
+
+        <!--NAVBAR-->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Github">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </div>
+        
+        <br>
+        <br>
+        <!--BACKGROUND VIDEO-->
+        <div id="Home">
+            <video autoplay muted loop id="Typing_video">
+                <source src="images/video/Typing.mp4" type="video/mp4">
+                Your browser unfortunately doesn't support HTML5 video. 
+            </video>
+        </div>
+
+
+        <!--BACKGROUND VIDEO TEXT-->
+        <div class="Video_Text">
+            <h1 class="white-text">Mark's Portfolio</h1>
+            <strong>
+                <p class="center">
+                    <q>
+                        Never trust a computer you can't throw out a window.
+                    </q>
+                    <br>-Steve Wozniak
+                    <br>
+                    <br> My name is Mark, welcome to my portfolio website. I will tell you a little about my background and experience.
+                    <br>
+                    <br> Thank you for stopping by!
+                </p>
+            </strong>
+        </div>
+
+        <!--ABOUT SECTION-->
+        <div class="Row" id="About">
+            <!--LEFT COLUMN-->
+            <div class="Column_2">
+                <img src="images/laptop1.png" alt="Replace with ur own image and description">
+            </div>
+            <!--RIGHT COLUMN-->
+            <div class="Column_1">
+                <h1>About</h1>
+                <p>
+                    I am a software developer with a bachelors degree in Biomedical Engineering
+                    from Cal Poly, San Luis Obispo. 
+                    <br>
+                    <br>I am a gradutate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s  Software Developer Boot Camp, and 
+                    trained and have experience in the following programming languages: HTML/CSS,
+                    JavaScript, SQL, C#, Python, and more. 
+                    <br>
+                    <br>I am a full-stack developer and would love to work with you on your projects. <a href="#Contact">Contact</a> me below! 
+                </p>
+            </div>
+        </div>
+
+        <!--GITHUB SECTION-->
+        <div class="Row" id="GitHub">
+            <!--LEFT COLUMN-->
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <p>
+                    You can view my coding projects on my GitHub profile here:
+                    <br>
+                    <p class="center"><a href="https://github.com/markedin" target="_blank">My GitHub</a></p>
+                </p>
+            </div>
+            <!--RIGHT COLUMN-->
+            <div class="Column_2">
+                <a href="https://github.com/markedin" target="_blank"><img src="images/github.png" alt="GitHub Logo"></a>
+            </div>
+        </div>
+
+        <!--CONTACT SECTION-->
+        <div class="Row" id="Contact">
+            <!--CONTACT IMAGE, LEFT SIDE-->
+            <div class="Column_2 Column_tall">
+                <img src="images/contact.png" alt="Contact_Image">
+            </div>
+            <!--CONTACT FORM, RIGHT SIDE-->
+            <div class="Column_1 Column_tall">
+                <h1>Contact</h1>
+                <!--This specifies where and how to send the form data; we are leaving it blank-->
+                <form action="" method="POST"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+        <!--FOOTER SECTION-->
+        <footer>
+            <p>
+                <br>
+                <p class="center">&copy Mark Edin</p>
+                <br>
+            </p>
+        </footer>
+
+
+
+
+
+
+
+
+    </body>
