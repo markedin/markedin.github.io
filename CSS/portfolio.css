@@ -11,7 +11,7 @@ h1 {
     font-family:"Trebuchet MS", Optima;
     text-align: center;
     margin-top: 3%;
-    color: #1a1a1a
+    color: #1a1a1a;
 }
 
 /*HEADING 1 ELEMENT HOVER EFFECT   */
@@ -137,7 +137,7 @@ footer {
 /*MOVENAV ANIMATION  */
 @keyframes moveNav {
     from {left: -100vw;}
-    to {left:0vw;}
+    to {left: 0vw;}
 }
 
 /*NAVBAR LINKS   */
@@ -227,7 +227,7 @@ footer {
 /*ANIMATION CAUSES OVERLAY VIDEO TEXT TO MOVE UP FROM BOTTOM OF PAGE  */
 @keyframes moveVideoText{
     from {top: -100vw;}
-    to {top:0vw;}
+    to {top: 0vw;}
 }
 
 /********END OF VIDEO STYLING*********/
@@ -248,7 +248,7 @@ footer {
 }
 
 /* 576PX AND SMALLER SCREEN DISPLAY SCROLLBAR */
-@media screen and (max-width: 576px;) {
+@media screen and (max-width: 576px) {
     .Column_1 {
         overflow: auto;
     }
@@ -270,7 +270,7 @@ footer {
 }
 
 /*INSERTING SOMETHING AFTER SELECTED ELEMENTS*/
-ow:after {
+.Row:after {
     content:"";
     display:table;
     clear: both;
